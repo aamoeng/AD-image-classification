@@ -12,8 +12,10 @@ MRI brain scans are used to diagnose the disease by observing structural differe
 <img width="451" height="182" alt="image" src="https://github.com/user-attachments/assets/63d64d54-dddc-4b38-8d0f-9fa24ed84fd0" />
 
 The level of brain atrophy observed helps classify the disease into various stages, from mild cognitive impairment to severe Alzheimer's.
+
 The dataset chosen from this project is open-source from Kaggle, consisting 6,400 MRI brain scan images. 
-<img width="929" height="273" alt="Screenshot 2025-11-28 at 15 15 19" src="https://github.com/user-attachments/assets/262b6647-f909-40b1-99cf-1369ede4ce53" />
+<img width="200" height="245" alt="Screenshot 2025-11-28 at 22 08 50" src="https://github.com/user-attachments/assets/9064877d-c4c9-4c2f-823e-d81e55d9ce5b" />
+
 The images are classified into four diagnostic categories, in order of disease severity: Non-Demented (as the control group), Very Mild Demented, Mild Demented and Moderate Demented. The images are then resized and recoloured from RGB into greyscale, reducing data channels and speeds up processing. The data set was then split 80/20 for training and validation sets.
 
 
