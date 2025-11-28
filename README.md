@@ -9,11 +9,10 @@ The aim of this project was to prove the efficacy of using Neural Networks as di
 
 ### Dataset
 MRI brain scans are used to diagnose the disease by observing structural differences, explained in the image below.
+The level of brain atrophy observed helps classify the disease into various stages, from mild cognitive impairment to severe Alzheimer's.
 
 <img width="450" height="180" alt="image" src="https://github.com/user-attachments/assets/63d64d54-dddc-4b38-8d0f-9fa24ed84fd0" />
 
-
-The level of brain atrophy observed helps classify the disease into various stages, from mild cognitive impairment to severe Alzheimer's.
  
 <img width="500" height="220" alt="Screenshot 2025-11-28 at 22 08 50" src="https://github.com/user-attachments/assets/9064877d-c4c9-4c2f-823e-d81e55d9ce5b" />
 
