@@ -40,10 +40,10 @@ The model trained over 10 epochs with batches of 64 images each, adjusting param
 -	layers: indicates which layer to be used.
   
 ***Layers:***
--	'conv_2D': the core building blocks of a CNN, applying a set of learning filters to the input to detect and activate specific feature, outputting a feature map containing edges, textures and corners.
--	average_pooling: the pooling layers simplify the information in the model’s feature maps, reducing computational complexity.
--	flatten: the flatten layer then converts the 2D feature maps into 1D feature vectors.
--	dense: the dense, or fully connected, layer connects all the neurons from one layer to the next.
+-	`conv_2D`: the core building blocks of a CNN, applying a set of learning filters to the input to detect and activate specific feature, outputting a feature map containing edges, textures and corners.
+-	`average_pooling`: the pooling layers simplify the information in the model’s feature maps, reducing computational complexity.
+-	`flatten`: the flatten layer then converts the 2D feature maps into 1D feature vectors.
+-	`dense`: the dense, or fully connected, layer connects all the neurons from one layer to the next.
 ---
 
 ### Results
@@ -62,7 +62,7 @@ The prediction probability bar graph displays the probability distributions of t
 
 
 <img width="300" height="200" alt="image (4)" src="https://github.com/user-attachments/assets/b2210162-7665-4bdd-96ec-1cf87fd4cad9" />
-<img width="300" height="300" alt="image (3)" src="https://github.com/user-attachments/assets/af523813-d8c7-447b-a776-fc66c74a7b25" />
+<img width="300" height="200" alt="image (3)" src="https://github.com/user-attachments/assets/af523813-d8c7-447b-a776-fc66c74a7b25" />
 
 
 The figures above show that the model's accuracy consistently increases across both training and validation phases, indicating improved performance in classifying MRI images over ten epochs. Additionally, the model’s loss history and indicates a decrease in errors, confirming that the model's predictions became progressively more accurate.
