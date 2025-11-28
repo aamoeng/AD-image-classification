@@ -1,5 +1,6 @@
 # AD-image-classification
 CNN classification of MRI brain scan images for Alzheimer's disease (AD)
+This project was conducted in the context of a BEng dissertation "Applications of Neural Networks in Healthcare", achieving a 1st class grade. 
 
 ### Dataset
 MRI brain scans are used to diagnose the disease by observing structural differences, shown in figure 1. The level of brain atrophy observed helps classify the disease into various stages, from mild cognitive impairment to severe Alzheimer's.
