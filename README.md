@@ -61,8 +61,8 @@ The confusion matrix shows the correct and incorrect predictions for each class,
 The prediction probability bar graph displays the probability distributions of the predictions for each sample, showing the model’s confidence about each class. The bar graph demonstrates the model’s high confidence in classifying Very Mild Demented and Non Demented stages. Conversely, lower confidence in classifying the other stages may stem from data imbalance, highlighting areas where additional training data could enhance accuracy.
 
 
-<img width="200" height="150" alt="image (4)" src="https://github.com/user-attachments/assets/b2210162-7665-4bdd-96ec-1cf87fd4cad9" />
-<img width="200" height="150" alt="image (3)" src="https://github.com/user-attachments/assets/af523813-d8c7-447b-a776-fc66c74a7b25" />
+<img width="300" height="200" alt="image (4)" src="https://github.com/user-attachments/assets/b2210162-7665-4bdd-96ec-1cf87fd4cad9" />
+<img width="300" height="300" alt="image (3)" src="https://github.com/user-attachments/assets/af523813-d8c7-447b-a776-fc66c74a7b25" />
 
 
 The figures above show that the model's accuracy consistently increases across both training and validation phases, indicating improved performance in classifying MRI images over ten epochs. Additionally, the model’s loss history and indicates a decrease in errors, confirming that the model's predictions became progressively more accurate.
