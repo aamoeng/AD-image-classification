@@ -27,7 +27,7 @@ The images are classified into four diagnostic categories, in order of disease s
 The LeNet-5 CNN model was implemented in this study. While typically used for digit recognition, this architecture proved the most accurate between various iterations. 
 The model trained over 10 epochs with batches of 64 images each, adjusting parameters after every batch, and used validation data to monitor accuracy and loss, optimising model performance.
 
-<pre>```model = Sequential()
+<pre>model = Sequential()
 model.add(layers.Conv2D(filters=6, kernel_size=(5, 5), activation='relu', input_shape=(128,128,3)))
 model.add(layers.AveragePooling2D(pool_size=(2, 2))) 
 model.add(layers.Conv2D(filters=16, kernel_size=(5, 5), activation='relu'))
@@ -35,7 +35,7 @@ model.add(layers.AveragePooling2D(pool_size=(2, 2)))
 model.add(layers.Flatten())
 model.add(layers.Dense(units=120, activation='relu'))
 model.add(layers.Dense(units=84, activation='relu'))
-model.add(layers.Dense(units=4, activation='softmax'))```</pre>
+model.add(layers.Dense(units=4, activation='softmax'))</pre>
 
 
 #### CNN layer
