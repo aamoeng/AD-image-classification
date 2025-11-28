@@ -39,6 +39,7 @@ model.add(layers.Dense(units=4, activation='softmax'))</pre>
 
 
 #### CNN layer
+
 ***Arguments:***
 -	`filters`: integer. The number of filters to use in the convolutional layers.
 -	`input_shape`: integer. The shape of the input to use in the first convolutional layer. 
@@ -53,7 +54,7 @@ model.add(layers.Dense(units=4, activation='softmax'))</pre>
 -	`average_pooling`: the pooling layers simplify the information in the model’s feature maps, reducing computational complexity.
 -	`flatten`: the flatten layer then converts the 2D feature maps into 1D feature vectors.
 -	`dense`: the dense, or fully connected, layer connects all the neurons from one layer to the next.
----
+
 
 ### Results
 
@@ -75,8 +76,6 @@ The prediction probability bar graph displays the probability distributions of t
 
 
 The figures above show that the model's accuracy consistently increases across both training and validation phases, indicating improved performance in classifying MRI images over ten epochs. Additionally, the model’s loss history and indicates a decrease in errors, confirming that the model's predictions became progressively more accurate.
-
----
 
 ### Conclusion
 
