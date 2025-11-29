@@ -58,6 +58,7 @@ model.add(layers.Dense(units=4, activation='softmax'))</pre>
 
 
 <img width="388" height="250" alt="image (1)" src="https://github.com/user-attachments/assets/57de1ce8-84e9-4a10-9249-8253ee14cf5b" />
+
 The confusion matrix shows the correct and incorrect predictions for each class, thus seeing which disease stages are being confused with others. The highest level of confusion occurred at 1.2% and 2.7% between the Non-Demented and the Very Mild Demented classes.
 
 The neural network developed, successfully classified MRI brain scan images according to their stage of disease with an accuracy of 97.5%. 
