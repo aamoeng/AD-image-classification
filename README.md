@@ -22,7 +22,7 @@ The images are classified into four diagnostic categories, in order of disease s
 
 ### Neural Network model
 
-The LeNet-5 CNN model was implemented in this study. While typically used for digit recognition, this architecture proved the most accurate between various iterations. 
+The LeNet-5 CNN model was implemented in this study using Jupyter Notebook. While typically used for digit recognition, this architecture proved the most accurate between various iterations. 
 The model trained over 10 epochs with batches of 64 images each, adjusting parameters after every batch, and used validation data to monitor accuracy and loss, optimising model performance.
 
 <pre>model = Sequential()
