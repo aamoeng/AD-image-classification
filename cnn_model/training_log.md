@@ -2,7 +2,7 @@
 
 The following shows the epoch-by-epoch training and validation metrics for the LeNet-5 CNN model on the MRI brain scan dataset.
 
-<pre>text
+<pre>
 Epoch 1/10
 80/80 ━━━━━━━━━━━━━━━━━━━━ 75s 898ms/step - accuracy: 0.4333 - loss: 14.7112 - val_accuracy: 0.5945 - val_loss: 0.8548 - learning_rate: 0.0010
 
