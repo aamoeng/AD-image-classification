@@ -19,7 +19,7 @@ The hyperparameters used to train the LeNet-5 CNN model are listed below:
   - Softmax in output layer
 - **Pooling layers:** AveragePooling2D, pool size (2, 2)
 
-### Notes
-- These hyperparameters were selected based on preliminary experiments to balance accuracy and computational efficiency.  
-- Learning rate and batch size were tuned to achieve stable convergence over 10 epochs.
+### Note:
+- Hyperparameters were selected iteratively to balance accuracy and computational efficiency.  
+- Learning rate and batch size were tuned based on convergence over the 10 epochs.
 
